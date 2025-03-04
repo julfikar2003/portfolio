@@ -13,7 +13,7 @@
 h2{
     color: #D17D98;
 }
-header {
+header , footer{
     background-color: black;
     color: white;
     text-align: center;
@@ -62,32 +62,4 @@ i{
     font-size: 24px;
     color: wheat;
 }
-footer{
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding: 10px;
-}
-h5{
-    display: inline;
-}
-li{
-    list-style: none;
-}
-nav {
-background-color: black;
-}
 
-li{
-    display: inline;
-}
-ul li{
-    margin: 0;
-    padding: 10px;
-
-}
-ul li a:hover{
-    text-decoration: none;
-    color: white;
-    background-color: rgb(21, 56, 131);
-}
