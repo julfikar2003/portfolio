@@ -6,8 +6,10 @@
    
     font-style: normal;
     box-sizing: border-box;
+   
 
 }
+
 h2{
     color: #D17D98;
 }
@@ -36,7 +38,10 @@ section{
 }
 a{
     text-decoration: none;
+    color: rgb(28, 223, 37);
+  
 }
+
 a:hover{
     text-decoration: underline;
 }
@@ -55,11 +60,34 @@ blockquote{
 }
 i{
     font-size: 24px;
-    color: black;
+    color: wheat;
 }
 footer{
     text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
 }
 h5{
     display: inline;
+}
+li{
+    list-style: none;
+}
+nav {
+background-color: black;
+}
+
+li{
+    display: inline;
+}
+ul li{
+    margin: 0;
+    padding: 10px;
+
+}
+ul li a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(21, 56, 131);
 }
